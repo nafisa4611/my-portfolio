@@ -10,9 +10,9 @@ section{
     padding: 2px;
     margin: 20px;
 }
+
 #first-img{
-    height: 500px;
-    width: 500px;
+    width: 80%;
 }
 h1{
     font-size: 50px;
@@ -26,4 +26,16 @@ h3{
 }
 h4{
     color: tomato;
+}
+p{
+    font-size: 18px;
+    font-weight: 10px;
+}
+#link-button{
+    text-decoration: none;
+    background-color:tomato;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: antiquewhite;
+    font-weight: 700px;
 }
