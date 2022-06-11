@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .top{
@@ -12,12 +12,10 @@ section{
 .half-width{
     width: 50%;
     float: left;
-    padding: 2px;
+    padding: 10px;
     margin: 20px;
 }
-p{
-    text-align: justify;
-}
+
 #first-img{
     width: 80%;
 }
@@ -35,8 +33,9 @@ h4{
     color: tomato;
 }
 p{
-    font-size: 18px;
-    font-weight: 10px;
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: justify;
 }
 .middle{
     margin-top: 80px;
@@ -55,4 +54,25 @@ p{
     padding: 10px 40px;
     color: antiquewhite;
     font-weight: bold;
+}
+.box{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+
+}
+h2{
+    font-size: 40px;
+    color: lightsalmon;
+}
+.bottom{
+    margin-top: 80px;
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 2px;
+    border-left: 10px solid;
 }
