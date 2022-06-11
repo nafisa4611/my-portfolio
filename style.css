@@ -1,8 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 section{
     display: flex;
+}
+.top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width{
     width: 50%;
@@ -10,7 +15,9 @@ section{
     padding: 2px;
     margin: 20px;
 }
-
+p{
+    text-align: justify;
+}
 #first-img{
     width: 80%;
 }
@@ -31,11 +38,21 @@ p{
     font-size: 18px;
     font-weight: 10px;
 }
+.middle{
+    margin-top: 80px;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 2px;
+}
+#second-img{
+    width: 90%;
+}
 #link-button{
     text-decoration: none;
-    background-color:tomato;
+    background-image: linear-gradient(coral, orange);
     border-radius: 5px;
     padding: 10px 40px;
     color: antiquewhite;
-    font-weight: 700px;
+    font-weight: bold;
 }
