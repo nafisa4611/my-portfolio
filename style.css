@@ -1,0 +1,29 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    float: left;
+    padding: 2px;
+    margin: 20px;
+}
+#first-img{
+    height: 500px;
+    width: 500px;
+}
+h1{
+    font-size: 50px;
+    color: lightsalmon;
+}
+span{
+    color: coral;
+}
+h3{
+    color: orange;
+}
+h4{
+    color: tomato;
+}
